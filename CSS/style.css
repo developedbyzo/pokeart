@@ -5,9 +5,9 @@ body {
   height: 100vh;
 }
 
-#eevee {
+#eevee-left {
 position: absolute;
-left: 400px;
+left: 300px;
 }
 .eevee-left-ear {
   position: relative;
@@ -17,7 +17,7 @@ left: 400px;
   width: 100px;
   transform: skewX(55deg);
   transform: skewY(60deg);
-  background-color: #555;
+  background-color: rgb(99, 60, 21);
   border-radius: 5px 300px 100px 300px;
 }
 .hair1 {
@@ -53,38 +53,134 @@ left: 400px;
 	border-right: 5px solid transparent;
 	border-bottom: 50px solid rgb(197, 145, 93);
 }
-/* .eevee-left-ear {
-  position: absolute;
-  top: 10vh;
-  left: 5vw;
-  transform: rotate(-35deg);
-  width: 186px;
-  height: 390px;
-  background: rgb(99, 60, 21);
-  display: block;
-  clip-path: polygon(113.67px 181.00px,113.62px 199.31px,114.58px 221.62px,118.04px 241.43px,121.50px 261.24px,126.46px 282.04px,131.42px 302.85px,137.88px 323.16px,144.33px 343.47px,190.67px 343.47px,199.58px 318.85px,208.50px 294.24px,215.92px 267.62px,221.33px 243.00px,222.42px 215.63px,226.50px 187.26px,228.08px 156.40px,228.67px 124.53px,224.75px 94.03px,217.83px 67.53px,205.92px 39.53px,194.00px 11.53px,179.08px 27.28px,166.17px 45.03px,149.75px 68.78px,136.33px 93.53px,129.67px 110.40px,123.00px 132.26px,118.33px 154.63px);
-}
-.left-hair {
-  position: absolute;
-  top: 39.5vh;
-  left: 44vw;
-  transform: rotate(-35deg);
-  width: 300px;
-  height: 25px;
-  background: black;
-clip-path: polygon(50% 0%, 38% 100%, 63% 100%); 
-} */
 
-eevee-right-ear {
+#eevee-right {
   position: absolute;
-  top: 10vh;
-  left: 15vw;
-  transform: rotate(55deg) scaleX(-1);
-  width: 186px;
-  height: 390px;
-  background: rgb(99, 60, 21);
+  top: 300px;
+  left: 1500px;
+  transform: rotateY(180deg) rotate(-30deg);
+  }
+.eevee-right-ear {
+  position: relative;
+  top: 100px;
+  left: 300px;
+  height: 250px;
+  width: 100px;
+  transform: skewX(55deg);
+  transform: skewY(60deg);
+  background-color: rgb(99, 60, 21);
+  border-radius: 5px 300px 100px 300px;
+}
+.hair4 {
+  position: absolute;
+  top: 360px;
+  left: 390px;
+  transform: rotate(-25deg);
+  width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 50px solid rgb(197, 145, 93);
+}
+.hair5 {
+  position: absolute;
+  top: 340px;
+  left: 392px;
+  transform: rotate(-15deg);
+  width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 50px solid rgb(197, 145, 93);
+}
+.hair6 {
+  position: absolute;
+  top: 378px;
+  left: 393px;
+  transform: rotate(-32deg);
+  width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 50px solid rgb(197, 145, 93);
+}
+
+#eevee-head {
+  position: absolute;
+  top: 460px;
+  left: 690px;
+  background: rgb(197, 145, 93);
+  height: 310px;
+  width: 340px;
+  border-bottom-left-radius: 120px;
+  border-bottom-right-radius: 110px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 120px;
+  transform: rotate(10deg) skewY(-2deg);
+}
+
+.eevee-mane {
+  position: absolute;
+  top: 600px;
+  left: 650px;
+  background: rgb(252, 243, 228);
   display: block;
-  clip-path: polygon(113.67px 181.00px,113.62px 199.31px,114.58px 221.62px,118.04px 241.43px,121.50px 261.24px,126.46px 282.04px,131.42px 302.85px,137.88px 323.16px,144.33px 343.47px,190.67px 343.47px,199.58px 318.85px,208.50px 294.24px,215.92px 267.62px,221.33px 243.00px,222.42px 215.63px,226.50px 187.26px,228.08px 156.40px,228.67px 124.53px,224.75px 94.03px,217.83px 67.53px,205.92px 39.53px,194.00px 11.53px,179.08px 27.28px,166.17px 45.03px,149.75px 68.78px,136.33px 93.53px,129.67px 110.40px,123.00px 132.26px,118.33px 154.63px)
+  width: 320px;
+  padding: 30px 20px 50px 20px;
+  height: 300px;
+  border-top-left-radius: 300px;
+  border-bottom-left-radius: 300px;
+  border-bottom-right-radius: 300px;
+  transform: rotate(130deg);
+}
+
+.mane-hair {
+  position: absolute;
+  top: 690px;
+  left: 637px;
+  width: 0;
+  height: 0;
+  border-top-left-radius: 10px;
+  border-left: 10px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 120px solid rgb(252, 243, 228);
+  transform: rotate(30deg);
+}
+.mane-hair2 {
+  position: absolute;
+  top: 690px;
+  left: 640px;
+  width: 0;
+  height: 0;
+  border-top-left-radius: 10px;
+  border-left: 10px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 80px solid rgb(252, 243, 228);
+  transform: rotate(40deg);
+}
+.mane-hair3 {
+  position: absolute;
+  top: 770px;
+  left: 992px;
+  width: 0;
+  height: 0;
+  border-top-right-radius: 10px;
+  border-left: 20px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 80px solid rgb(252, 243, 228);
+  transform: rotate(-10deg);
+}
+.mane-hair4 {
+  position: absolute;
+  top: 750px;
+  left: 995px;
+  width: 0;
+  height: 0;
+  border-top-right-radius: 10px;
+  border-left: 20px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 80px solid rgb(252, 243, 228);
+  transform: rotate(-20deg);
 }
 
 #litten {
