@@ -182,6 +182,42 @@ left: 300px;
   border-top: 80px solid rgb(252, 243, 228);
   transform: rotate(-20deg);
 }
+.mane-hair5 {
+  position: absolute;
+  top: 760px;
+  left: 993px;
+  width: 0;
+  height: 0;
+  border-top-right-radius: 10px;
+  border-left: 20px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 80px solid rgb(252, 243, 228);
+  transform: rotate(-15deg);
+}
+.mane-hair6 {
+  position: absolute;
+  top: 955px;
+  left: 800px;
+  width: 0;
+  height: 0;
+  border-top-left-radius: 10px;
+  border-left: 10px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 80px solid rgb(252, 243, 228);
+  transform: rotate(-30deg);
+}
+.mane-hair7 {
+  position: absolute;
+  top: 760px;
+  left: 640px;
+  width: 0;
+  height: 0;
+  border-top-left-radius: 10px;
+  border-left: 10px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 100px solid rgb(252, 243, 228);
+  transform: rotate(2deg);
+}
 
 #litten {
   background: black;
