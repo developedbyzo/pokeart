@@ -1,10 +1,13 @@
 body {
   margin: 0;
+  
+  
+}
+#eevee-pokemon {
   background: rgb(197, 145, 93);
   width: 100%;
-  height: 100vh;
+  height: 125vh;
 }
-
 #eevee-left {
 position: absolute;
 left: 300px;
@@ -219,11 +222,52 @@ left: 300px;
   transform: rotate(2deg);
 }
 
-#litten {
-  background: black;
+#bulbasaur-pokemon {
+  background: rgb(146, 209, 179);
   width: 100%;
-  display: block;
-  height: 100vh;
+  height: 125vh;
+}
+#bulbasaur-bulb {
+  position: absolute;
+  top: 180px;
+  left: 800px;
+  width: 0;
+  height: 0;
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  border-bottom: 600px solid #89C893;
+  border-bottom-left-radius: 4000px;
+  border-bottom-right-radius: 6000px;
+  border-top-right-radius: 4000px;
+  transform: rotate(65deg);
+}
+.bulb-leaf1 {
+  position: relative;
+  top: -25px;
+  left: -290px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #89C893;
+  transform: rotate(-30deg);
+}
+.bulb-leaf2 {
+  position: relative;
+  top: -90px;
+  left: -325px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #89C893;
+  transform: rotateY(180deg) rotate(60deg);
+}
+#bulbasaur-body {
+  width: 200px;
+  height: 100px;
+  background: red;
+  border-radius: 100px / 50px;
 }
 #poliwag {
 
@@ -239,4 +283,22 @@ left: 300px;
 }
 #gastly {
 
+}
+
+footer {
+  height: 50px;
+  margin-top: -50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.prev {
+  float: left;
+  /* padding-left: 30px; */
+}
+.next {
+  padding-right: 30px;
+  float: right;
+}
+footer a {
+  /* text-decoration: none; */
+  color: rgb(99, 60, 21)
 }
